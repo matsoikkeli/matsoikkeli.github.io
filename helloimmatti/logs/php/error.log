@@ -1,0 +1,411 @@
+[13-Feb-2021 17:57:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/tol/Local Sites/helloimmatti/app/public/wp-content/themes/FoundationPress/page-templates/page-full-width.php on line 38
+[13-Feb-2021 17:59:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/tol/Local Sites/helloimmatti/app/public/wp-content/themes/FoundationPress/page-templates/page-full-width.php on line 37
+[14-Feb-2021 10:00:19 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/update.php on line 173
+[14-Feb-2021 10:00:19 UTC] PHP Stack trace:
+[14-Feb-2021 10:00:19 UTC] PHP   1. {main}() /Users/tol/Local Sites/helloimmatti/app/public/wp-cron.php:0
+[14-Feb-2021 10:00:19 UTC] PHP   2. do_action_ref_array() /Users/tol/Local Sites/helloimmatti/app/public/wp-cron.php:138
+[14-Feb-2021 10:00:19 UTC] PHP   3. WP_Hook->do_action() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/plugin.php:551
+[14-Feb-2021 10:00:19 UTC] PHP   4. WP_Hook->apply_filters() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 10:00:19 UTC] PHP   5. wp_version_check() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/class-wp-hook.php:287
+[14-Feb-2021 10:00:19 UTC] PHP   6. trigger_error() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/update.php:173
+[14-Feb-2021 10:00:19 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/update.php on line 408
+[14-Feb-2021 10:00:19 UTC] PHP Stack trace:
+[14-Feb-2021 10:00:19 UTC] PHP   1. {main}() /Users/tol/Local Sites/helloimmatti/app/public/wp-cron.php:0
+[14-Feb-2021 10:00:19 UTC] PHP   2. do_action_ref_array() /Users/tol/Local Sites/helloimmatti/app/public/wp-cron.php:138
+[14-Feb-2021 10:00:19 UTC] PHP   3. WP_Hook->do_action() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/plugin.php:551
+[14-Feb-2021 10:00:19 UTC] PHP   4. WP_Hook->apply_filters() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 10:00:19 UTC] PHP   5. wp_update_plugins() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/class-wp-hook.php:287
+[14-Feb-2021 10:00:19 UTC] PHP   6. trigger_error() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/update.php:408
+[14-Feb-2021 10:00:19 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/update.php on line 612
+[14-Feb-2021 10:00:19 UTC] PHP Stack trace:
+[14-Feb-2021 10:00:19 UTC] PHP   1. {main}() /Users/tol/Local Sites/helloimmatti/app/public/wp-cron.php:0
+[14-Feb-2021 10:00:19 UTC] PHP   2. do_action_ref_array() /Users/tol/Local Sites/helloimmatti/app/public/wp-cron.php:138
+[14-Feb-2021 10:00:19 UTC] PHP   3. WP_Hook->do_action() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/plugin.php:551
+[14-Feb-2021 10:00:19 UTC] PHP   4. WP_Hook->apply_filters() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 10:00:19 UTC] PHP   5. wp_update_themes() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/class-wp-hook.php:287
+[14-Feb-2021 10:00:19 UTC] PHP   6. trigger_error() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/update.php:612
+[14-Feb-2021 14:25:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/tol/Local Sites/helloimmatti/app/public/wp-content/themes/FoundationPress/page-templates/page-full-width.php on line 143
+[14-Feb-2021 19:26:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=10668 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:24 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:24 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:24 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:24 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:24 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:24 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:24 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:24 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:24 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:24 UTC] PHP   9. wp_get_active_and_valid_plugins() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:386
+[14-Feb-2021 19:26:24 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/load.php:773
+[14-Feb-2021 19:26:24 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:24 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:24 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:24 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10665 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10672 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10685 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10667 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10681 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10674 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10687 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10664 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10683 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10671 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10673 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10670 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10666 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10676 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10675 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10679 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10678 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=10684 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:25 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:25 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:25 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:25 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:25 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:25 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:25 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:25 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:25 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:25 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:25 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:25 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:25 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:25 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:25 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=10682 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:26 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:26 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:26 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:26 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:26 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:26 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:26 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:26 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:26 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:26 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:26 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:26 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:26 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=10677 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:26 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:26 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:26 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:26 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:26 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:26 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:26 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:26 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:26 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:26 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:26 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:26 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:26 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=10680 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:26 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:26 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:26 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:26 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:26 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:26 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:26 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:26 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:26 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:26 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:26 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:26 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:26 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=10669 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:26 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:26 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:26 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:26 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:26 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:26 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:26 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:26 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:26 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:26 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:26 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:26 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:26 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
+[14-Feb-2021 19:26:26 UTC] PHP Warning:  Error while sending QUERY packet. PID=10686 in /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php on line 2056
+[14-Feb-2021 19:26:26 UTC] PHP Stack trace:
+[14-Feb-2021 19:26:26 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[14-Feb-2021 19:26:26 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[14-Feb-2021 19:26:26 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[14-Feb-2021 19:26:26 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[14-Feb-2021 19:26:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[14-Feb-2021 19:26:26 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[14-Feb-2021 19:26:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[14-Feb-2021 19:26:26 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[14-Feb-2021 19:26:26 UTC] PHP   9. wp_cookie_constants() /Users/tol/Local Sites/helloimmatti/app/public/wp-settings.php:362
+[14-Feb-2021 19:26:26 UTC] PHP  10. get_option() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/default-constants.php:284
+[14-Feb-2021 19:26:26 UTC] PHP  11. wpdb->get_row() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/option.php:146
+[14-Feb-2021 19:26:26 UTC] PHP  12. wpdb->query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2616
+[14-Feb-2021 19:26:26 UTC] PHP  13. wpdb->_do_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:1945
+[14-Feb-2021 19:26:26 UTC] PHP  14. mysqli_query() /Users/tol/Local Sites/helloimmatti/app/public/wp-includes/wp-db.php:2056
